@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabServices", "CabServices.csproj", "{AD2A325B-DD4D-415B-B3A4-718A22E7D59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabService.Core", "..\CabService.Core\CabService.Core.csproj", "{F978C0E8-B0C6-4FE7-9BCD-9DE23494BF20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD2A325B-DD4D-415B-B3A4-718A22E7D59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2A325B-DD4D-415B-B3A4-718A22E7D59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2A325B-DD4D-415B-B3A4-718A22E7D59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2A325B-DD4D-415B-B3A4-718A22E7D59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F978C0E8-B0C6-4FE7-9BCD-9DE23494BF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F978C0E8-B0C6-4FE7-9BCD-9DE23494BF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F978C0E8-B0C6-4FE7-9BCD-9DE23494BF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F978C0E8-B0C6-4FE7-9BCD-9DE23494BF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

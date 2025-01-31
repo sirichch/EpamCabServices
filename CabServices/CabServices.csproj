@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8CBE4B20-AF3A-40C5-8909-AC54564A5D63}</ProjectGuid>
+    <ProjectGuid>{AD2A325B-DD4D-415B-B3A4-718A22E7D59A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EpamCabServices</RootNamespace>
-    <AssemblyName>EpamCabServices</AssemblyName>
+    <RootNamespace>CabServices</RootNamespace>
+    <AssemblyName>CabServices</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,13 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="CabDatabase\CabDatabase.csproj">
-      <Project>{231d0e30-cf09-4ab5-a730-25959ef0e231}</Project>
-      <Name>CabDatabase</Name>
-    </ProjectReference>
-    <ProjectReference Include="UserDetails\CabServices.csproj">
-      <Project>{4b0ae3de-b4b2-42ba-9a6c-0fef66f64260}</Project>
-      <Name>CabServices</Name>
+    <ProjectReference Include="..\CabService.Core\CabService.Core.csproj">
+      <Project>{f978c0e8-b0c6-4fe7-9bcd-9de23494bf20}</Project>
+      <Name>CabService.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
